@@ -37,7 +37,13 @@ cap = cv2.VideoCapture(0)
 * MediaPipe
 * PyAutoGUI
 * NumPy
-
+## 📂 Project Structure
+AI-Hand-Gesture-Control/
+│
+├── main.py # Main project code
+├── requirements.txt # Required Python libraries
+├── README.md # Project documentation
+└── screenshot.png # Project demo image
 ## ▶️ How to Run
 
 1. Clone this repository.
