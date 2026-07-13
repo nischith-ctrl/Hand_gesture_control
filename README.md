@@ -45,19 +45,42 @@ AI-Hand-Gesture-Control/
 ├── README.md # Project documentation
 └── screenshot.png # Project demo image
 ## ▶️ How to Run
+## 📦 Installation
 
-1. Clone this repository.
-2. Install the required libraries:
+1. Make sure Python 3.x is installed.
+2. Clone the repository:
+
+```bash
+git clone your_repository_link
+````
+
+3. Open the project folder:
+
+```bash
+cd AI-Hand-Gesture-Control
+```
+
+4. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the project:
+5. Run the project:
 
 ```bash
 python main.py
 ```
+
+## 🎮 Gesture Controls
+
+| Gesture                  | Action      |
+| ------------------------ | ----------- |
+| ☝️ Index finger only     | Move cursor |
+| 👍 Index + Thumb finger  | Left click  |
+| ✌️ Index + Middle finger | Scroll up   |
+| ✊ All fingers closed     | Scroll down |
+
 
 ## 👨‍💻 Author
 
