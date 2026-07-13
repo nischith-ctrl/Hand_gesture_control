@@ -2,12 +2,19 @@
 
 An AI-based Hand Gesture Control system built using Python, OpenCV, MediaPipe, and PyAutoGUI. This project allows users to control the computer mouse using hand gestures captured through a webcam.
 
+## Hardware Requirements 🖥️
+- Laptop/Desktop
+- Webcam (Built-in or External)
+- Internet connection (for installing required libraries)
 ## 🚀 Features
 - Move mouse cursor using hand movements
 - Left click using finger gestures
 - Scroll up and down
 - Real-time hand tracking
 - Simple and user-friendly
+- Real-time hand tracking using webcam
+- Controls PC using hand gestures
+- AI-based gesture recognition with MediaPipe
 
 ## 🛠️ Technologies Used
 - Python
