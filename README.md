@@ -1,5 +1,8 @@
 # ✋ AI Hand Gesture Control
-
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 An AI-based Hand Gesture Control system built using Python, OpenCV, MediaPipe, and PyAutoGUI. This project allows users to control the computer mouse using hand gestures captured through a webcam.
 
 ## Hardware Requirements 🖥️
