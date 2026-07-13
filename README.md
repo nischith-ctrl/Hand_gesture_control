@@ -6,6 +6,13 @@ An AI-based Hand Gesture Control system built using Python, OpenCV, MediaPipe, a
 - Laptop/Desktop
 - Webcam (Built-in or External)
 - Internet connection (for installing required libraries)
+  
+## Webcam Configuration 📷
+The project uses the default webcam of the laptop.
+If you want to use the laptop camera, make sure the video capture value is set to:
+```python
+cap = cv2.VideoCapture(0)
+
 ## 🚀 Features
 - Move mouse cursor using hand movements
 - Left click using finger gestures
