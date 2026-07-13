@@ -6,42 +6,52 @@ An AI-based Hand Gesture Control system built using Python, OpenCV, MediaPipe, a
 - Laptop/Desktop
 - Webcam (Built-in or External)
 - Internet connection (for installing required libraries)
-  
+
 ## Webcam Configuration 📷
 The project uses the default webcam of the laptop.
-If you want to use the laptop camera, make sure the video capture value is set to:
+
+Make sure the video capture value is set to:
+
 ```python
 cap = cv2.VideoCapture(0)
 
+
+
 ## 🚀 Features
-- Move mouse cursor using hand movements
-- Left click using finger gestures
-- Scroll up and down
-- Real-time hand tracking
-- Simple and user-friendly
+
+- Move mouse cursor by showing only the index finger
+- Perform left click by bringing index finger and thumb finger together
+- Scroll up using index finger and middle finger gesture
+- Scroll down by closing all fingers after index and middle finger gesture
 - Real-time hand tracking using webcam
-- Controls PC using hand gestures
-- AI-based gesture recognition with MediaPipe
+- AI-based gesture recognition using MediaPipe
+- Control PC functions using hand gestures
 
 ## 🛠️ Technologies Used
-- Python
-- OpenCV
-- MediaPipe
-- PyAutoGUI
-- NumPy
+
+* Python
+* OpenCV
+* MediaPipe
+* PyAutoGUI
+* NumPy
 
 ## ▶️ How to Run
+
 1. Clone this repository.
 2. Install the required libraries:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run:
-   ```
-   python main.py
-   ```
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the project:
+
+```bash
+python main.py
+```
 
 ## 👨‍💻 Author
+
 **Nischith Shettigar**
 
 Engineering Student (Artificial Intelligence & Machine Learning)
